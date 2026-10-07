@@ -2,9 +2,15 @@
 h1 = 0
 h2 = 5000
 h3 = 10000
+h4 = 12000
+h5 = 20000
 
 print(f'At {h1} meters, the temperature is {temperature(h1)}°C, the pressure is {pressure(h1)}Pa and the density is {density(h1)}kg/m^3')
 
 print(f'At {h2} meters, the temperature is {temperature(h2)}°C, the pressure is {pressure(h2)}Pa and the density is {density(h2)}kg/m^3')
 
 print(f'At {h3} meters, the temperature is {temperature(h3)}°C, the pressure is {pressure(h3)}Pa and the density is {density(h3)}kg/m^3')
+
+print(f'At {h4} meters, the temperature is {temperature(h4)}°C, the pressure is {pressure(h4)}Pa and the density is {density(h4)}kg/m^3')
+
+print(f'At {h5} meters, the temperature is {temperature(h5)}°C, the pressure is {pressure(h5)}Pa and the density is {density(h5)}kg/m^3')
