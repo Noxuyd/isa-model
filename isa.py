@@ -1,5 +1,7 @@
 import math
 
+"""Python file to compute different variables at altitude h, using the ISA norm"""
+
 def density(h):
     """Returns ISA air density in kg/m^3 at altitude h in metres."""
     density_sea_level = 1.225
@@ -32,3 +34,10 @@ def pressure(h):
     return p0 * (T / T0) ** (g / (L * R))
 
 """Test to see if this change will appear on my GitHub repository"""
+
+def speed_of_sound(h):
+    """Returns the speed of sound in m/s at altitude h in metres."""
+    gamma = 1.4
+    R     = 287.05
+    T     = temperature(h)
+    return (gamma * R * T) ** 0.5
